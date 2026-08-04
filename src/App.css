@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+}
+
+form input:focus {
+  border-color: var(--color-primary);
+  outline: 2px solid var(--color-primary-soft);
+}
+@media (max-width: 500px){
+  .app-main{
+    padding: 20px;
+  }
+}
